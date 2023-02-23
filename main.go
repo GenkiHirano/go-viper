@@ -12,11 +12,11 @@ type Config struct {
 
 func main() {
 	// cwd, err := os.Getwd()
-    // if err != nil {
-    //     return nil, apperror.NewError(apperror.InternalError, err)
-    // }
+	// if err != nil {
+	//     return nil, apperror.NewError(apperror.InternalError, err)
+	// }
 
-    // envPath := filepath.Join(cwd, ".env")
+	// envPath := filepath.Join(cwd, ".env")
 
 	viper.AutomaticEnv()
 	// 実際のプロジェクトでは、引数にenvPathを渡す
